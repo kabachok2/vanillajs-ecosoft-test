@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <script src="index.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <label>Небольшое тестовое задание. Написано на чистом js без использования библиотек и плагинов</label>
+    <div id="app">
+        <div class="grid-column">
+            <label class="block-header"> Картинки животных </label>
+            <img id="petImage" alt="Изображение еще не загружено или произошла ошибка">
+            <button id="petButton" onclick="onPetButtonClick()">Сменить картинку</button>
+        </div>
+        <div class="grid-column">
+            <label class="block-header">Информация о биткоине</label>
+            <label>Цена на биткоин:</label>
+            <label id="bitcoinPrice" class="info"></label>
+            <label> Сложность сети: </label>
+            <label id="bitcoinDifficult" class="info"></label>
+            <label> Хешрейт: </label>
+            <label id="bitcoinHashrate" class="info"></label>
+        </div>
+        <div class="grid-column">
+            <label class="block-header"> Некоторая информация о последней полете компании spaceX </label>
+            <label>Номер запуска</label>
+            <label id="flightNumber" class="info"></label>
+            <label> Название миссии </label>
+            <label id="missionName" class="info"></label>
+            <label> Дата запуска: </label>
+            <label id="launchDate" class="info"></label>
+        </div>
+    </div>
+</body>
+
+</html>
